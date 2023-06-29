@@ -1,0 +1,39 @@
+.bg-container {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  color: black;
+  font-size: 32px;
+  font-family: Roboto;
+}
+.notification-container {
+  border-radius: 5px;
+  height: 60px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.information {
+  background-color: lightskyblue;
+}
+.success {
+  background-color: lightskyblue;
+}
+.warning {
+  background-color: lightskyblue;
+}
+.error {
+  background-color: lightskyblue;
+}
+.message {
+  color: white;
+}
+.icon {
+  height: 15px;
+  width: 15px;
+}
